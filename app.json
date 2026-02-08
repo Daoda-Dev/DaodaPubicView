@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "DaoDa",
+    "slug": "DaoDa",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "plugins":
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow DaoDa to access your location for nearby activities."
+        }
+      ]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyAnXuUeqUh4XIaoJ4vb2o6bgt-xoMocxvw"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff",
+        "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAnXuUeqUh4XIaoJ4vb2o6bgt-xoMocxvw"
+        }
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+  }
+}
